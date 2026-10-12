@@ -1,0 +1,18 @@
+{
+  "format": "rodaje.filter",
+  "version": 1,
+  "id": "c-log3",
+  "name": "Canon Log 3 a Rec. 709",
+  "description": "Canon Log 3 con gama Cinema Gamut a Rec. 709. Para clips grabados en esa curva.",
+  "effects": [
+    {
+      "type": "rodaje.color",
+      "parameters": {
+        "lutIntensity": 1
+      },
+      "options": {
+        "lut": "./lut-c-log3"
+      }
+    }
+  ]
+}

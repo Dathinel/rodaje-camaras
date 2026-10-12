@@ -1,0 +1,18 @@
+{
+  "format": "rodaje.filter",
+  "version": 1,
+  "id": "c-log2",
+  "name": "Canon Log 2 a Rec. 709",
+  "description": "Canon Log 2 con gama Cinema Gamut a Rec. 709. Para clips grabados en esa curva.",
+  "effects": [
+    {
+      "type": "rodaje.color",
+      "parameters": {
+        "lutIntensity": 1
+      },
+      "options": {
+        "lut": "./lut-c-log2"
+      }
+    }
+  ]
+}

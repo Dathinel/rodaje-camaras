@@ -1,0 +1,18 @@
+{
+  "format": "rodaje.filter",
+  "version": 1,
+  "id": "hlg",
+  "name": "HLG a Rec. 709 (SDR)",
+  "description": "HLG de la BT.2100 con gama BT.2020 a Rec. 709 de rango estándar, con el blanco de la BT.2408. Para clips grabados en esa curva.",
+  "effects": [
+    {
+      "type": "rodaje.color",
+      "parameters": {
+        "lutIntensity": 1
+      },
+      "options": {
+        "lut": "./lut-hlg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "formatVersion": 1,
+  "id": "rodaje-camaras",
+  "version": "1.0.0",
+  "kind": "content",
+  "name": "Cámaras",
+  "description": "LUT de log de cámara a Rec. 709 (Sony, Panasonic, Canon, ARRI, Blackmagic, Fujifilm, Nikon y HLG), calculadas con las fórmulas que publica cada fabricante. Contenido propio de dominio público (CC0).",
+  "author": "Dathinel",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/Dathinel/rodaje-camaras",
+  "apps": [
+    "rodaje"
+  ],
+  "items": [
+    {
+      "id": "s-log3",
+      "kind": "filter",
+      "name": "Sony S-Log3 a Rec. 709",
+      "file": "filtros/s-log3.json",
+      "description": "S-Log3 con gama S-Gamut3.Cine a Rec. 709."
+    },
+    {
+      "id": "v-log",
+      "kind": "filter",
+      "name": "Panasonic V-Log a Rec. 709",
+      "file": "filtros/v-log.json",
+      "description": "V-Log con gama V-Gamut a Rec. 709."
+    },
+    {
+      "id": "c-log2",
+      "kind": "filter",
+      "name": "Canon Log 2 a Rec. 709",
+      "file": "filtros/c-log2.json",
+      "description": "Canon Log 2 con gama Cinema Gamut a Rec. 709."
+    },
+    {
+      "id": "c-log3",
+      "kind": "filter",
+      "name": "Canon Log 3 a Rec. 709",
+      "file": "filtros/c-log3.json",
+      "description": "Canon Log 3 con gama Cinema Gamut a Rec. 709."
+    },
+    {
+      "id": "log-c3",
+      "kind": "filter",
+      "name": "ARRI LogC3 a Rec. 709",
+      "file": "filtros/log-c3.json",
+      "description": "LogC3 (EI 800) con gama ARRI Wide Gamut 3 a Rec. 709."
+    },
+    {
+      "id": "bmd-film-gen5",
+      "kind": "filter",
+      "name": "Blackmagic Film Gen 5 a Rec. 709",
+      "file": "filtros/bmd-film-gen5.json",
+      "description": "Blackmagic Film con gama Wide Gamut de 5.ª generación a Rec. 709."
+    },
+    {
+      "id": "f-log",
+      "kind": "filter",
+      "name": "Fujifilm F-Log a Rec. 709",
+      "file": "filtros/f-log.json",
+      "description": "F-Log con gama F-Gamut (BT.2020) a Rec. 709."
+    },
+    {
+      "id": "n-log",
+      "kind": "filter",
+      "name": "Nikon N-Log a Rec. 709",
+      "file": "filtros/n-log.json",
+      "description": "N-Log con gama BT.2020 a Rec. 709."
+    },
+    {
+      "id": "hlg",
+      "kind": "filter",
+      "name": "HLG a Rec. 709 (SDR)",
+      "file": "filtros/hlg.json",
+      "description": "HLG de la BT.2100 con gama BT.2020 a Rec. 709 de rango estándar, con el blanco de la BT.2408."
+    },
+    {
+      "id": "lut-s-log3",
+      "kind": "lut",
+      "name": "LUT Sony S-Log3 a Rec. 709",
+      "file": "luts/s-log3.cube",
+      "description": "LUT 3D 33³: S-Log3 con gama S-Gamut3.Cine a Rec. 709."
+    },
+    {
+      "id": "lut-v-log",
+      "kind": "lut",
+      "name": "LUT Panasonic V-Log a Rec. 709",
+      "file": "luts/v-log.cube",
+      "description": "LUT 3D 33³: V-Log con gama V-Gamut a Rec. 709."
+    },
+    {
+      "id": "lut-c-log2",
+      "kind": "lut",
+      "name": "LUT Canon Log 2 a Rec. 709",
+      "file": "luts/c-log2.cube",
+      "description": "LUT 3D 33³: Canon Log 2 con gama Cinema Gamut a Rec. 709."
+    },
+    {
+      "id": "lut-c-log3",
+      "kind": "lut",
+      "name": "LUT Canon Log 3 a Rec. 709",
+      "file": "luts/c-log3.cube",
+      "description": "LUT 3D 33³: Canon Log 3 con gama Cinema Gamut a Rec. 709."
+    },
+    {
+      "id": "lut-log-c3",
+      "kind": "lut",
+      "name": "LUT ARRI LogC3 a Rec. 709",
+      "file": "luts/log-c3.cube",
+      "description": "LUT 3D 33³: LogC3 (EI 800) con gama ARRI Wide Gamut 3 a Rec. 709."
+    },
+    {
+      "id": "lut-bmd-film-gen5",
+      "kind": "lut",
+      "name": "LUT Blackmagic Film Gen 5 a Rec. 709",
+      "file": "luts/bmd-film-gen5.cube",
+      "description": "LUT 3D 33³: Blackmagic Film con gama Wide Gamut de 5.ª generación a Rec. 709."
+    },
+    {
+      "id": "lut-f-log",
+      "kind": "lut",
+      "name": "LUT Fujifilm F-Log a Rec. 709",
+      "file": "luts/f-log.cube",
+      "description": "LUT 3D 33³: F-Log con gama F-Gamut (BT.2020) a Rec. 709."
+    },
+    {
+      "id": "lut-n-log",
+      "kind": "lut",
+      "name": "LUT Nikon N-Log a Rec. 709",
+      "file": "luts/n-log.cube",
+      "description": "LUT 3D 33³: N-Log con gama BT.2020 a Rec. 709."
+    },
+    {
+      "id": "lut-hlg",
+      "kind": "lut",
+      "name": "LUT HLG a Rec. 709 (SDR)",
+      "file": "luts/hlg.cube",
+      "description": "LUT 3D 33³: HLG de la BT.2100 con gama BT.2020 a Rec. 709 de rango estándar, con el blanco de la BT.2408."
+    }
+  ]
+}

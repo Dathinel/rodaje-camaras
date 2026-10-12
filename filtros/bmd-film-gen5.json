@@ -1,0 +1,18 @@
+{
+  "format": "rodaje.filter",
+  "version": 1,
+  "id": "bmd-film-gen5",
+  "name": "Blackmagic Film Gen 5 a Rec. 709",
+  "description": "Blackmagic Film con gama Wide Gamut de 5.ª generación a Rec. 709. Para clips grabados en esa curva.",
+  "effects": [
+    {
+      "type": "rodaje.color",
+      "parameters": {
+        "lutIntensity": 1
+      },
+      "options": {
+        "lut": "./lut-bmd-film-gen5"
+      }
+    }
+  ]
+}
