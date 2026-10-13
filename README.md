@@ -11,6 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licencia-CC0_1.0-E8833A?style=flat-square&labelColor=1D1D1D" alt="Licencia CC0 1.0"></a>
   <a href="https://github.com/Dathinel/rodaje-camaras/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-camaras?style=flat-square&labelColor=1D1D1D&color=E8833A&label=versi%C3%B3n" alt="Última versión"></a>
+  <img src="https://img.shields.io/badge/contenido-9_LUT_de_c%C3%A1mara-E8833A?style=flat-square&labelColor=1D1D1D" alt="Contenido: 9 LUT de cámara">
   <img src="https://img.shields.io/badge/formato-.paquete-E8833A?style=flat-square&labelColor=1D1D1D" alt="Formato .paquete">
   <a href="https://github.com/Dathinel/rodaje"><img src="https://img.shields.io/badge/para-Rodaje-E8833A?style=flat-square&labelColor=1D1D1D" alt="Para Rodaje"></a>
 </p>
@@ -49,7 +50,7 @@ Comprueba los valores que publica cada documento (S-Log3: 18 % → código 420; 
 
 ## Instalar en Rodaje
 
-En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-camaras-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-camaras/releases) y usa «Instalar desde archivo…» en Complementos o suéltalo sobre la biblioteca. Las conversiones aparecen en Filtros; aplica la de tu cámara al clip antes de corregir el color.
+En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-camaras-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-camaras/releases) y usa «Instalar desde archivo…» en Complementos o suéltalo sobre la biblioteca. Las conversiones aparecen en Filtros; aplica la de tu cámara al clip antes de corregir el color. Más detalles en la [guía de complementos](https://github.com/Dathinel/rodaje/blob/main/docs/guia/complementos.md).
 
 ## Construir el paquete
 
